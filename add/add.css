@@ -1,0 +1,161 @@
+.navigation{
+    width: auto;
+    display: flex; 
+    height: 10.6rem;
+}
+
+.topnav {
+
+    display: flex;
+    color: black;
+    font-size:2.7rem;
+  }
+  
+.topnav a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-size:2.7rem;
+  }
+  
+ .active {
+    padding-left: 1rem;
+    font-size: 2.8rem;
+  } 
+
+.navigation .heading{
+    font-size: 2.8rem;
+    margin-left: 23.5rem;
+}
+img {
+    max-height: 30%;
+    max-width: 30%;
+    object-fit: contain;
+    margin-left: 22rem;
+   }
+ /* LEFT TAB */
+.myLinks,.task,.reminder{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.myLinks{
+    border-style: groove;
+    height: 40.5rem;
+    width: 17rem;
+    align-items: center;
+}
+
+.menubar {
+
+    height: 4.5rem;
+    width: 17rem;
+
+    text-align: center;
+    background-size:50%;
+    margin-top: 1rem;
+}
+.myLinks_active{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.back{
+    background-color: black;
+    margin: 1rem;
+    padding-top: 0.8rem;
+    height: 2.2rem;
+    border-radius: 0.6rem;
+}
+
+
+/* TASK section  */
+.task{
+    margin-left: 18rem;
+    margin-top: 3rem;
+}
+.task_active{
+font-size: 2.8rem;
+width: 24rem;
+/* text-align: center; */
+text-decoration: none;
+color: black;
+}
+.options{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 30rem; 
+    border: none;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+
+.options_1{
+margin-top: 1rem;
+height: 10rem;
+width: 30rem; 
+border: none;
+align-items: center;
+background-color: #e0e0e0;
+}
+input.task1{
+    margin-left: 1rem;
+    width: 3rem;
+    height: 5rem;
+}
+.task_data{
+    font-size: 2.8rem;
+    width: 24rem;
+    margin-top: -4.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    }
+.add_task{
+    background-color: black;
+    margin: 1rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    padding-top: 0.8rem;
+    height: 2.2rem;
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.6rem;
+}
+/* middle line */
+
+.middle{
+    border-left: solid gray;
+    height: 33rem;
+    position:absolute;
+    left: 70%;
+}
+/* Reminder section */
+.reminder{
+    margin-left: 51rem;
+    margin-top: 3rem;
+}
+.options_2{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 18rem; 
+    border: none;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+
+.add_task_2{
+    background-color: black;
+    margin: 1rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    padding-top: 0.8rem;
+    height: 2.2rem;
+    text-align: center;
+    width: 10rem;
+    border-radius: 0.6rem;
+}
